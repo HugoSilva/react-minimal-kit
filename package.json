@@ -1,7 +1,7 @@
 {
-  "name": "manchester",
+  "name": "react-minimal-kit",
   "version": "1.0.0",
-  "description": "Manchester Baseball Club Website",
+  "description": "Very minimal react template that allows to create website/webapp prototype very quickly.",
   "main": "src/app.js",
   "dependencies": {
     "babel-core": "^6.4.5",
@@ -11,8 +11,7 @@
     "history": "^1.17.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-router": "^1.0.3",
-    "webpack": "^1.12.13"
+    "react-router": "^1.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.8",
@@ -32,7 +31,7 @@
     "test": "mocha",
     "start": "webpack-dev-server --hot --inline --history-api-fallback",
     "lint": "eslint . --ext .js --ext .jsx",
-    "build": "webpack --progress --colors --config webpack.config.js"
+    "build": "webpack -p --progress --colors --config webpack.config.js"
   },
   "author": "hugoflsilva",
   "license": "MIT"
