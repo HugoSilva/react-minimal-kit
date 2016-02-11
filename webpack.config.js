@@ -30,6 +30,10 @@ var config = {
             {
                 test: /\.html$/,
                 loader: 'file?name=[name].[ext]'
+            },
+            {
+                test: /\.scss$/,
+                loaders: ["style", "css", "sass"]
             }
         ]
     },

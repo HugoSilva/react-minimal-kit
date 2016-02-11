@@ -1,6 +1,7 @@
 import React from 'react';
-import Data from '../data';
+import Data from '../../data';
 import { Link } from 'react-router';
+require('./MainPage.scss');
 
 export default class MainApp extends React.Component {
     
