@@ -1,11 +1,14 @@
 import React from 'react';
-import { render } from 'react-dom'
-import { Router, Route } from 'react-router'
+import { render } from 'react-dom';
+import { Router, Route } from 'react-router';
+import createHistory from 'history/lib/createHashHistory';
+
 import MainApp from './components/MainPage/MainPage.jsx';
 import About from './components/AboutPage/AboutPage.jsx';
 import NoMatch from './components/notfound.jsx';
-import createHistory from 'history/lib/createHashHistory'
 
+require('./index.html');
+    
 let history = createHistory({
     queryKey: false
 })

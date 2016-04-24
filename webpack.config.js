@@ -1,10 +1,7 @@
 var path = require('path');
 
 var config = {
-    entry: {
-        javascript: path.resolve(__dirname, 'src/app.js'),
-        html: path.resolve(__dirname, 'src/index.html')
-    },
+    entry: path.resolve(__dirname, 'src/app.js'),
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'
